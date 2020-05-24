@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'White Rabbit' !important;
-    src: url("..fonts/whitrabt.ttf") format("ttf"), url("..fonts/whitrabt.woff") format("woff");
+    font-family: 'White Rabbit';
+    src: url("..fonts/whitrabt.ttf") format("truetype"), 
+         url("..fonts/whitrabt.woff") format("woff");
 }
 
 html, body {
@@ -55,6 +56,7 @@ html, body {
 }
 
 #output {
+    font-family: 'White Rabbit';
     background-color: transparent;
     border: none;
     width: 400px;
