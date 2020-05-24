@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'White Rabbit';
     src: url("fonts/whitrabt.ttf") format("truetype"), 
-         url("fonts/whitrabt.woff") format("woff");
+         url("https://pandenok.github.io/calculator/fonts/whitrabt.woff") format("woff");
 }
 
 html, body {
