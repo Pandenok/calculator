@@ -2,23 +2,85 @@
 <html>
 <head>
   <title>Calculator by Pandenok</title>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset = "UTF-8"/>
+  <meta name = "viewport" content = "width=device-width">
+  <link rel = "stylesheet" type = "text/css" href = "./styles/main.css"/>
+  <link rel = "stylesheet" type = "text/css" href = "./styles/reset.css"/>
 </head>
 <body>
-    <h1>
-      CALCULATOR
-    </h1>
-    <div id="container">
-
-        <div class="content">
-        
-        </div>
+  
+  <div id = 'wrapper'>
     
+    <div id = 'display'>
+      <div id = 'backlog'></div>
+      <div id = 'output'>0</div>
     </div>
 
-    <script src="script.js"></script>
+    <div id = 'controls'>
+      <button id = 'history' class = 'control-button'>
+        <img src = 'favicons/history_white_54x54.png' width = '35' height="35"/>
+        <span class = 'hidden-shortcut'>H</span>
+      </button>
+      <button id = 'keyboard' class = 'control-button'>
+        <img src = 'favicons/keyboard_hide_white_108x108.png' width = '35' height="35"/>
+        <span class = 'hidden-shortcut'>Q</span>
+      </button>
+      <button id = 'sound' class = 'control-button'>
+        <img src = 'favicons/volume-up-icon-128.png' width = '35' height="35"/>
+        <span class = 'hidden-shortcut'>V</span>
+      </button>
+      <button id = 'backspace' class = 'control-button'>
+        <img src = 'favicons/backspace_white_192x192.png' width = '35' height="35"/>
+        <span class = 'hidden-shortcut'>Backspace</span>
+      </button>
+    </div>
+    
+    <div id = 'keyboard-area'>
+
+      <button id = 'clear'>AC
+        <span class = 'hidden-shortcut'>Esc</span>
+      </button>
+        
+      <button id = 'sign'>&plusmn</button>
+      
+      <button id = 'multiply' class = 'operator'>&times</button>
+      
+      <button id = 'seven' class = 'number'>7</button>
+      <button id = 'eight' class = 'number'>8</button>
+      <button id = 'nine' class = 'number'>9</button>
+      
+      <button id = 'divide' class = 'operator'>÷</button>
+      
+      <button id = 'four' class = 'number'>4</button>
+      <button id = 'five' class = 'number'>5</button>
+      <button id = 'six' class = 'number'>6</button>
+      
+      <button id = 'subtract' class = 'operator'>-</button>
+      
+      <button id = 'one' class = 'number'>1</button>
+      <button id = 'two' class = 'number'>2</button>
+      <button id = 'three' class = 'number'>3</button>
+      
+      <button id = 'add' class = 'operator'>+</button>
+      
+      <button id = 'zero' class = 'number'>0</button>
+      <button id = 'decimal'>.</button>
+      <button id = 'equal'>=
+        <span class = 'hidden-shortcut'>Enter</span>
+      </button>
+        
+    </div>
+
+  </div>
+
+    <footer>
+      <a href = ''><img id = 'github' src = 'favicons/GitHub-Mark-Light-64px.png' width = '35' height="35"/></a>
+      designed by pandenok &copy
+    </footer>
+    
+    <audio src="sounds/Robot_blip.wav"></audio>
+
+    <script src="scripts/script.js"></script>
 
   </body>
 </html>
