@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'White Rabbit' !important;
+    src: url("..fonts/whitrabt.ttf") format("ttf"), url("..fonts/whitrabt.woff") format("woff");
+}
+
 html, body {
     min-height: 100%;
     margin: 0;
@@ -6,11 +11,6 @@ html, body {
     font-family: 'White Rabbit' !important;
     /* src: url("..fonts/whitrabt.ttf"); */
     color: #f0fff8;
-}
-
-@font-face {
-    font-family: 'White Rabbit' !important;
-    src: url("..fonts/whitrabt.ttf") format("ttf");
 }
 
 *, *::before, *::after {
