@@ -51,7 +51,7 @@ footer {
 ```
 - if there is enough content on the page to push the footer lower, it still does that. But if the content on the page is short, a sticky footer will still hang to the bottom of the browser window.
 
-[Sticky footer, 5 ways] (https://css-tricks.com/couple-takes-sticky-footer/)
+[Sticky footer, 5 ways](https://css-tricks.com/couple-takes-sticky-footer/)
 
 ### How To Center an Object Exactly In The Center
 
@@ -75,7 +75,7 @@ to absolute position it with pixel values so it looks perfectly centered.
 
 [How to override default button styles](https://css-tricks.com/overriding-default-button-styles/)
 
-[Reset Buttons] (https://gist.github.com/MoOx/9137295)
+[Reset Buttons](https://gist.github.com/MoOx/9137295)
 
 ### Shorthand GridArea
 

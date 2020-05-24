@@ -3,9 +3,14 @@ html, body {
     margin: 0;
     background: url('../images/matrix5.jpg') repeat;
     background-position: top;
-    font-family: 'White Rabbit' !important;
-    src: url("..fonts/whitrabt.ttf");
+    /* font-family: 'White Rabbit' !important; */
+    /* src: url("..fonts/whitrabt.ttf"); */
     color: #f0fff8;
+}
+
+@font-face {
+    font-family: 'White Rabbit' !important;
+    src: url("..fonts/whitrabt.ttf") format("ttf");
 }
 
 *, *::before, *::after {
