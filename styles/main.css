@@ -80,6 +80,7 @@ html, body {
     border: none;
     cursor: pointer;
     padding: 0 10px;
+    outline: none;
 }
 
 .control-button:hover {
@@ -120,6 +121,7 @@ html, body {
     text-transform: none;
     -webkit-appearance: none;
     -moz-appearance: none;
+    outline: none;
 }
 
 #keyboard-area>button:hover,
