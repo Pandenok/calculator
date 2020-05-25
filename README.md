@@ -1,6 +1,6 @@
 # Project: Calculator (JavaScript Basics)
 
-I made this project while running through the Web Development 101 course at The Odin Project. The final (for now) result can be viewed [here](). 
+I made this project while running through the Web Development 101 course at The Odin Project. The final (for now) result can be viewed [here](https://pandenok.github.io/calculator/). 
 
 A simple on-screen calculator written in JavaScript.
 
@@ -97,6 +97,15 @@ p {
     max-width: 75ch;
 }
 ```
+
+### `@font-face` with local file: download failed
+I was constrained to change the local file structure and move fonts folder under styles, because *for a page loaded from a file:// URI, only files in (or below) the same directory of the filesystem are considered to be "same origin", and so putting the font in a different subtree (../font/) means it will be blocked by security policy restrictions*.
+The complete answer is [here](https://stackoverflow.com/questions/19817459/firefox-font-face-with-local-file-downloadable-font-download-failed)
+
+### Normalize vs Reset
+- Recent article on [Medium](https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e) suggests to combine both worlds.
+- Here is the [answer](https://stackoverflow.com/questions/6887336/what-is-the-difference-between-normalize-css-and-reset-css/8357635#8357635) on SO.
+- opinion: *I wanna use reset when developing. And once done I want normalize.css or some JS that takes all the things I have not changed and are the same in browser. Or I have changed and after changing they have become the same as in browser and remove them for client side. So reset would help while developing that 'program' in faster client side. Both happy. And much smarter way to live*.
 
 ## JavaScript
 
