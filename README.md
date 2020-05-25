@@ -4,17 +4,21 @@ I made this project while running through the Web Development 101 course at The 
 
 A simple on-screen calculator written in JavaScript.
 
+Initially, I was thinking to get the whole input of the user as a string, convert it in an arrow, split it and get operands and operators with regex. However, it's not the behaviour of classic simple calculator, where you can't see the whole expression, but only operands on the display. So, I decided to imitate it and put a second screen as a backlog for anything was typed.
+
 # Task List
 
-    - [ ] 
+- [ ] if user hits a number, an operator, a number and another operator, the display should be updated to a calculated value. I get that I need an `if` statement that checks when I have `firstOperand` and `operator` and then I can perform `operate`. The challenge is how to get `secondOperand` from `display`.
 
-    - [ ] 
+- [ ] you need to press "q" twice on the first load to see shortcuts, then it works charmly.
 
-    - [ ] 
+- [ ] the page is built on 1920x1080 resolution, so if your browser's rendering seems strange to you, please play with zoom settings. However, the solution will be to make it responsive with media-queries.
 
 # What I learned
 
 ## HTML
+
+### meta tag `viewport` and its attributes
 
 ## CSS
 
