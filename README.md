@@ -14,6 +14,8 @@ Initially, I was thinking to get the whole input of the user as a string, conver
 
 - [ ] the page is built on 1920x1080 resolution, so if your browser's rendering seems strange to you, please play with zoom settings. However, the solution will be to make it responsive with media-queries.
 
+- [ ] auto-clear the history as you add equations back-to-back and after hit equal button (@Vitsen)
+
 # What I learned
 
 ## HTML
@@ -173,10 +175,10 @@ When `click()` is used with supported elements (such as an `<input>`), it fires 
 
 ## Bugs Reported by Community
 
-    - [ ] 
+- [ ] auto-clear the history as you add equations back-to-back (@Vitsen)
 
-    - [ ] 
+- [ ] 
 
-    - [ ] 
+- [ ] 
 
-    - [ ] 
+- [ ] 
